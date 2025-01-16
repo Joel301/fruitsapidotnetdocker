@@ -1,0 +1,7 @@
+services:
+  mi-proyecto:
+    image: fruit-api
+    build:
+      context: .
+    ports:
+      - "5000:8080"
